@@ -10,8 +10,7 @@ from scipy import signal
 from sklearn.utils import check_X_y
 from sklearn.preprocessing import StandardScaler
 import bottleneck as bn
-import mi
-
+from . import mi
 
 class MutualInformationFeatureSelector(object):
     """
